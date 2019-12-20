@@ -26,7 +26,7 @@ class Index extends React.Component {
   render() {
     return (
       <Layout>
-        <Helmet title="Gatsby Starter - Stellar" />
+        <Helmet title="Luciano Jr | Developer" />
 
         <Header />
 
@@ -44,22 +44,32 @@ class Index extends React.Component {
                   <h2>Hi, I'm Luciano</h2>
                 </header>
                 <p>
-                Graduating in computer engineering, loves embedded systems and web / mobile application
-                creation. Dedicated, hardworking and always looking for new experiences.
+                  Graduating in computer engineering, loves embedded systems and
+                  web / mobile application creation. Dedicated, hardworking and
+                  always looking for new experiences.
                 </p>
                 <ul className="icons">
                   <li>
-                    <a href="https://twitter.com/" className="icon fa-twitter alt">
+                    <a
+                      href="https://twitter.com/"
+                      className="icon fa-twitter alt"
+                    >
                       <span className="label">Twitter</span>
                     </a>
                   </li>
                   <li>
-                    <a href="https://facebook.com" className="icon fa-facebook alt">
+                    <a
+                      href="https://facebook.com"
+                      className="icon fa-facebook alt"
+                    >
                       <span className="label">Facebook</span>
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.instagram.com/luciano__junior/" className="icon fa-instagram alt">
+                    <a
+                      href="https://www.instagram.com/luciano__junior/"
+                      className="icon fa-instagram alt"
+                    >
                       <span className="label">Instagram</span>
                     </a>
                   </li>
@@ -72,7 +82,10 @@ class Index extends React.Component {
                     </a>
                   </li>
                   <li>
-                    <a href="https://dribbble.com" className="icon fa-dribbble alt">
+                    <a
+                      href="https://dribbble.com"
+                      className="icon fa-dribbble alt"
+                    >
                       <span className="label">Dribbble</span>
                     </a>
                   </li>
@@ -130,12 +143,10 @@ class Index extends React.Component {
           <section id="second" className="main special">
             <header className="major">
               <h2>Toolbox</h2>
-              <p>
-                Front-End Development
-              </p>
+              <p>Front-End Development</p>
             </header>
             <ul className="features">
-            <li>
+              <li>
                 <span className="icon major style5 fa-diamond"></span>
                 <h3>React Native</h3>
               </li>
@@ -161,9 +172,7 @@ class Index extends React.Component {
               </li>
             </ul>
             <header className="major">
-              <p>
-                Back-End Development
-              </p>
+              <p>Back-End Development</p>
             </header>
             <ul className="features">
               <li>
@@ -187,7 +196,7 @@ class Index extends React.Component {
               <ul className="actions">
                 <li>
                   <Link to="/generic" className="button">
-                    Learn More
+                    Blog
                   </Link>
                 </li>
               </ul>
@@ -196,7 +205,7 @@ class Index extends React.Component {
 
           <section id="cta" className="main special">
             <header className="major">
-              <h2>Showcase</h2>
+              <h2>Work</h2>
               <p>
                 Donec imperdiet consequat consequat. Suspendisse feugiat congue
                 <br />

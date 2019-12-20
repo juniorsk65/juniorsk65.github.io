@@ -17,7 +17,8 @@ const Footer = props => (
             Learn More
           </Link>
         </li>
-      </ul>Congue imperdie
+      </ul>
+      Congue imperdie
     </section>
     <section>
       <h2>Contacts</h2>
@@ -31,10 +32,7 @@ const Footer = props => (
       </dl>
       <ul className="icons">
         <li>
-          <a
-            href="https://twitter.com/"
-            className="icon fa-twitter alt"
-          >
+          <a href="https://twitter.com/" className="icon fa-twitter alt">
             <span className="label">Twitter</span>
           </a>
         </li>
@@ -44,7 +42,10 @@ const Footer = props => (
           </a>
         </li>
         <li>
-          <a href="https://www.instagram.com/luciano__junior/" className="icon fa-instagram alt">
+          <a
+            href="https://www.instagram.com/luciano__junior/"
+            className="icon fa-instagram alt"
+          >
             <span className="label">Instagram</span>
           </a>
         </li>
@@ -63,11 +64,11 @@ const Footer = props => (
         </li>
       </ul>
     </section>
+    <p className="copyright">Edited by Luciano Jr</p>
     <p className="copyright">
-      Edited by Luciano Jr
+      &copy; 2019. Design by Gatsby Starter:{' '}
+      <a href="https://html5up.net">HTML5 UP</a>{' '}
     </p>
-    <p className="copyright">
-      &copy; 2019. Design by Gatsby Starter: <a href="https://html5up.net">HTML5 UP</a>  </p>
   </footer>
 )
 

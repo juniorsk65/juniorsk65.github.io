@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Luciano Jr. | Developer",
-    author: "Luciano Jr.",
-    description: "Personal Portifolio"
+    title: 'Luciano Jr. | Developer',
+    author: 'Luciano Jr.',
+    description: 'Personal Portifolio',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -19,6 +19,6 @@ module.exports = {
       },
     },
     'gatsby-plugin-sass',
-    'gatsby-plugin-offline'
+    'gatsby-plugin-offline',
   ],
 }

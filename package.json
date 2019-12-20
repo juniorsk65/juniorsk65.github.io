@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-stellar",
-  "description": "Gatsby Starter - Stellar by HTML5 UP",
+  "name": "potifolio-luciano",
+  "description": "Luciano Jr | Developer",
   "version": "1.0.0",
-  "author": "Hunter Chang",
+  "author": "Luciano Jr.",
   "dependencies": {
     "gatsby": "^2.15.14",
     "gatsby-plugin-manifest": "^2.2.16",
