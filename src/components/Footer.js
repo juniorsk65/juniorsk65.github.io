@@ -4,7 +4,7 @@ import React from 'react'
 const Footer = props => (
   <footer id="footer">
     <section>
-      <h2>Aliquam sed mauris</h2>
+      <h2>More about me</h2>
       <p>
         Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat
         magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras
@@ -17,18 +17,16 @@ const Footer = props => (
             Learn More
           </Link>
         </li>
-      </ul>
+      </ul>Congue imperdie
     </section>
     <section>
-      <h2>Etiam feugiat</h2>
+      <h2>Contacts</h2>
       <dl className="alt">
         <dt>Address</dt>
-        <dd>1234 Somewhere Road &bull; Nashville, TN 00000 &bull; USA</dd>
-        <dt>Phone</dt>
-        <dd>(000) 000-0000 x 0000</dd>
+        <dd>João Pessoa - PB &bull; Brazil</dd>
         <dt>Email</dt>
         <dd>
-          <a href="https://codebushi.com">juniorsk65@gmail.com</a>
+          <a href="mailto:juniorsk65@gmail.com">juniorsk65@gmail.com</a>
         </dd>
       </dl>
       <ul className="icons">

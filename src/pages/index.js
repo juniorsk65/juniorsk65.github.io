@@ -41,19 +41,40 @@ class Index extends React.Component {
             <div className="spotlight">
               <div className="content">
                 <header className="major">
-                  <h2>Hi,</h2>
+                  <h2>Hi, I'm Luciano</h2>
                 </header>
                 <p>
-                  Sed lorem ipsum dolor sit amet nullam consequat feugiat
-                  consequat magna adipiscing magna etiam amet veroeros. Lorem
-                  ipsum dolor tempus sit cursus. Tempus nisl et nullam lorem
-                  ipsum dolor sit amet aliquam.
+                Graduating in computer engineering, loves embedded systems and web / mobile application
+                creation. Dedicated, hardworking and always looking for new experiences.
                 </p>
-                <ul className="actions">
+                <ul className="icons">
                   <li>
-                    <Link to="/generic" className="button">
-                      Learn More
-                    </Link>
+                    <a href="https://twitter.com/" className="icon fa-twitter alt">
+                      <span className="label">Twitter</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://facebook.com" className="icon fa-facebook alt">
+                      <span className="label">Facebook</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.instagram.com/luciano__junior/" className="icon fa-instagram alt">
+                      <span className="label">Instagram</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://github.com/juniorsk65"
+                      className="icon fa-github alt"
+                    >
+                      <span className="label">GitHub</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://dribbble.com" className="icon fa-dribbble alt">
+                      <span className="label">Dribbble</span>
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -65,74 +86,31 @@ class Index extends React.Component {
 
           <section id="first" className="main special">
             <header className="major">
-              <h2>Collaborating well is more important than someone's skillset.</h2>
-            </header>
-            <ul className="features">
-              <li>
-                <span className="icon major style1 fa-code"></span>
-                <h3>Ipsum consequat</h3>
-                <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
-                </p>
-              </li>
-              <li>
-                <span className="icon major style3 fa-copy"></span>
-                <h3>Amed sed feugiat</h3>
-                <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
-                </p>
-              </li>
-              <li>
-                <span className="icon major style5 fa-diamond"></span>
-                <h3>Dolor nullam</h3>
-                <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
-                </p>
-              </li>
-            </ul>
-            <footer className="major">
-              <ul className="actions">
-                <li>
-                  <Link to="/generic" className="button">
-                    Learn More
-                  </Link>
-                </li>
-              </ul>
-            </footer>
-          </section>
-
-          <section id="second" className="main special">
-            <header className="major">
-              <h2>Ipsum consequat</h2>
+              <h2>Values</h2>
               <p>
-                Donec imperdiet consequat consequat. Suspendisse feugiat congue
-                <br />
-                posuere. Nulla massa urna, fermentum eget quam aliquet.
+                Collaborating well is more important than someone's skillset.
               </p>
             </header>
             <ul className="statistics">
               <li className="style1">
-                <span className="icon fa-code-fork"></span>
-                <strong>5,120</strong> Etiam
+                <span className="icon fa-heartbeat"></span>
+                <strong></strong> Passion
               </li>
               <li className="style2">
-                <span className="icon fa-folder-open-o"></span>
-                <strong>8,192</strong> Magna
+                <span className="icon fa-comments"></span>
+                <strong></strong> Comunication
               </li>
               <li className="style3">
-                <span className="icon fa-signal"></span>
-                <strong>2,048</strong> Tempus
+                <span className="icon fa-bullseye"></span>
+                <strong></strong> Focus
               </li>
               <li className="style4">
                 <span className="icon fa-laptop"></span>
-                <strong>4,096</strong> Aliquam
+                <strong></strong> Curiosity
               </li>
               <li className="style5">
-                <span className="icon fa-diamond"></span>
-                <strong>1,024</strong> Nullam
+                <span className="icon fa-life-ring"></span>
+                <strong></strong> Cooperation
               </li>
             </ul>
             <p className="content">
@@ -147,6 +125,64 @@ class Index extends React.Component {
               scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras
               eu ornare dui curabitur lacinia.
             </p>
+          </section>
+
+          <section id="second" className="main special">
+            <header className="major">
+              <h2>Toolbox</h2>
+              <p>
+                Front-End Development
+              </p>
+            </header>
+            <ul className="features">
+            <li>
+                <span className="icon major style5 fa-diamond"></span>
+                <h3>React Native</h3>
+              </li>
+              <li>
+                <span className="icon major style5 fa-diamond"></span>
+                <h3>React JS</h3>
+              </li>
+              <li>
+                <span className="icon major style5 fa-diamond"></span>
+                <h3>HTML | CSS</h3>
+              </li>
+              <li>
+                <span className="icon major style5 fa-diamond"></span>
+                <h3>Typescript</h3>
+              </li>
+              <li>
+                <span className="icon major style5 fa-diamond"></span>
+                <h3>Gatsby</h3>
+              </li>
+              <li>
+                <span className="icon major style5 fa-diamond"></span>
+                <h3>PHP</h3>
+              </li>
+            </ul>
+            <header className="major">
+              <p>
+                Back-End Development
+              </p>
+            </header>
+            <ul className="features">
+              <li>
+                <span className="icon major style5 fa-diamond"></span>
+                <h3>Node JS</h3>
+              </li>
+              <li>
+                <span className="icon major style5 fa-diamond"></span>
+                <h3>Rest APIs</h3>
+              </li>
+              <li>
+                <span className="icon major style5 fa-diamond"></span>
+                <h3>GraphQL</h3>
+              </li>
+              <li>
+                <span className="icon major style5 fa-diamond"></span>
+                <h3>MySQL</h3>
+              </li>
+            </ul>
             <footer className="major">
               <ul className="actions">
                 <li>
@@ -160,7 +196,7 @@ class Index extends React.Component {
 
           <section id="cta" className="main special">
             <header className="major">
-              <h2>Congue imperdiet</h2>
+              <h2>Showcase</h2>
               <p>
                 Donec imperdiet consequat consequat. Suspendisse feugiat congue
                 <br />
