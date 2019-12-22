@@ -6,7 +6,10 @@ import me from '../assets/images/me.jpg'
 import Header from '../components/Header'
 import Layout from '../components/layout'
 import Nav from '../components/Nav'
+import { CircularProgressbar, CircularProgressbarWithChildren } from 'react-circular-progressbar';
+import 'react-circular-progressbar/dist/styles.css';
 
+const percentage = 66;
 class Index extends React.Component {
   constructor(props) {
     super(props)
@@ -139,7 +142,6 @@ class Index extends React.Component {
               eu ornare dui curabitur lacinia.
             </p>
           </section>
-
           <section id="second" className="main special">
             <header className="major">
               <h2>Toolbox</h2>
@@ -147,27 +149,52 @@ class Index extends React.Component {
             </header>
             <ul className="features">
               <li>
-                <span className="icon major style5 fa-diamond"></span>
+                {/* <CircularProgressbar value={percentage} text={`${percentage}%`} />; */}
+                <span className="icon major style5">
+                  <CircularProgressbarWithChildren style={{width: 100}} value={65}>
+                    <img style={{ width: 70, marginTop: -5 }} src="https://facebook.github.io/react-native/img/header_logo.svg"/>
+                  </CircularProgressbarWithChildren>
+                </span>
                 <h3>React Native</h3>
               </li>
               <li>
-                <span className="icon major style5 fa-diamond"></span>
-                <h3>React JS</h3>
-              </li>
-              <li>
-                <span className="icon major style5 fa-diamond"></span>
-                <h3>HTML | CSS</h3>
-              </li>
-              <li>
-                <span className="icon major style5 fa-diamond"></span>
+                <span className="icon major style5">
+                  <CircularProgressbarWithChildren style={{width: 100}} value={80}>
+                    <img style={{ width: 80, marginTop: -5 }} src="https://image.flaticon.com/icons/png/512/919/919832.png"/>
+                  </CircularProgressbarWithChildren>
+                </span>
                 <h3>Typescript</h3>
               </li>
               <li>
-                <span className="icon major style5 fa-diamond"></span>
+                <span className="icon major style5">
+                  <CircularProgressbarWithChildren style={{width: 100}} value={70}>
+                    <img style={{ width: 70, marginTop: -5 }} src="https://facebook.github.io/react-native/img/header_logo.svg"/>
+                  </CircularProgressbarWithChildren>
+                </span>
+                <h3>React JS</h3>
+              </li>
+              <li>
+                <span className="icon major style5">
+                  <CircularProgressbarWithChildren style={{width: 100}} value={80}>
+                    <img style={{ width: 80, marginTop: -5 }} src="https://cdn.iconscout.com/icon/free/png-512/code-280-460136.png"/>
+                  </CircularProgressbarWithChildren>
+                </span>
+                <h3>HTML | CSS</h3>
+              </li>
+              <li>
+                <span className="icon major style5">
+                  <CircularProgressbarWithChildren style={{width: 100}} value={55}>
+                    <img style={{ width: 70, marginTop: -5 }} src="https://avatars1.githubusercontent.com/u/12551863?s=200&v=4"/>
+                  </CircularProgressbarWithChildren>
+                </span>
                 <h3>Gatsby</h3>
               </li>
               <li>
-                <span className="icon major style5 fa-diamond"></span>
+                <span className="icon major style5">
+                  <CircularProgressbarWithChildren style={{width: 100}} value={40}>
+                    <img style={{ width: 70, marginTop: -5 }} src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1200px-PHP-logo.svg.png"/>
+                  </CircularProgressbarWithChildren>
+                </span>
                 <h3>PHP</h3>
               </li>
             </ul>
@@ -176,19 +203,35 @@ class Index extends React.Component {
             </header>
             <ul className="features">
               <li>
-                <span className="icon major style5 fa-diamond"></span>
+                 <span className="icon major style5">
+                  <CircularProgressbarWithChildren style={{width: 100}} value={70}>
+                    <img style={{ width: 90, marginTop: -5 }} src="https://cdn2.iconfinder.com/data/icons/nodejs-1/512/nodejs-512.png"/>
+                  </CircularProgressbarWithChildren>
+                </span>
                 <h3>Node JS</h3>
               </li>
               <li>
-                <span className="icon major style5 fa-diamond"></span>
+                <span className="icon major style5">
+                  <CircularProgressbarWithChildren style={{width: 100}} value={70}>
+                    <img style={{ width: 70, marginTop: -5 }} src="https://cdn2.iconfinder.com/data/icons/web-application-3/100/app_application_web_software_settings_notifications_-05-512.png"/>
+                  </CircularProgressbarWithChildren>
+                </span>
                 <h3>Rest APIs</h3>
               </li>
               <li>
-                <span className="icon major style5 fa-diamond"></span>
+                <span className="icon major style5">
+                  <CircularProgressbarWithChildren style={{width: 100}} value={50}>
+                    <img style={{ width: 80, marginTop: -5 }} src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/GraphQL_Logo.svg/1200px-GraphQL_Logo.svg.png"/>
+                  </CircularProgressbarWithChildren>
+                </span>
                 <h3>GraphQL</h3>
               </li>
               <li>
-                <span className="icon major style5 fa-diamond"></span>
+                <span className="icon major style5">
+                  <CircularProgressbarWithChildren style={{width: 100}} value={76}>
+                    <img style={{ width: 80, marginTop: -5 }} src="https://image.flaticon.com/icons/png/512/274/274439.png"/>
+                  </CircularProgressbarWithChildren>
+                </span>
                 <h3>MySQL</h3>
               </li>
             </ul>
