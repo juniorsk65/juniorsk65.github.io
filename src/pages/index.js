@@ -159,7 +159,7 @@ class Index extends React.Component {
               </li>
               <li>
                 <span className="icon major style5">
-                  <CircularProgressbarWithChildren style={{width: 100}} value={80}>
+                  <CircularProgressbarWithChildren style={{width: 100}} value={60}>
                     <img style={{ width: 80, marginTop: -5 }} src="https://image.flaticon.com/icons/png/512/919/919832.png"/>
                   </CircularProgressbarWithChildren>
                 </span>
@@ -167,7 +167,7 @@ class Index extends React.Component {
               </li>
               <li>
                 <span className="icon major style5">
-                  <CircularProgressbarWithChildren style={{width: 100}} value={70}>
+                  <CircularProgressbarWithChildren style={{width: 100}} value={65}>
                     <img style={{ width: 70, marginTop: -5 }} src="https://facebook.github.io/react-native/img/header_logo.svg"/>
                   </CircularProgressbarWithChildren>
                 </span>
@@ -175,7 +175,7 @@ class Index extends React.Component {
               </li>
               <li>
                 <span className="icon major style5">
-                  <CircularProgressbarWithChildren style={{width: 100}} value={80}>
+                  <CircularProgressbarWithChildren style={{width: 100}} value={60}>
                     <img style={{ width: 80, marginTop: -5 }} src="https://cdn.iconscout.com/icon/free/png-512/code-280-460136.png"/>
                   </CircularProgressbarWithChildren>
                 </span>
@@ -183,7 +183,7 @@ class Index extends React.Component {
               </li>
               <li>
                 <span className="icon major style5">
-                  <CircularProgressbarWithChildren style={{width: 100}} value={55}>
+                  <CircularProgressbarWithChildren style={{width: 100}} value={45}>
                     <img style={{ width: 70, marginTop: -5 }} src="https://avatars1.githubusercontent.com/u/12551863?s=200&v=4"/>
                   </CircularProgressbarWithChildren>
                 </span>
@@ -191,7 +191,7 @@ class Index extends React.Component {
               </li>
               <li>
                 <span className="icon major style5">
-                  <CircularProgressbarWithChildren style={{width: 100}} value={40}>
+                  <CircularProgressbarWithChildren style={{width: 100}} value={30}>
                     <img style={{ width: 70, marginTop: -5 }} src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1200px-PHP-logo.svg.png"/>
                   </CircularProgressbarWithChildren>
                 </span>
@@ -204,15 +204,15 @@ class Index extends React.Component {
             <ul className="features">
               <li>
                  <span className="icon major style5">
-                  <CircularProgressbarWithChildren style={{width: 100}} value={70}>
-                    <img style={{ width: 90, marginTop: -5 }} src="https://cdn2.iconfinder.com/data/icons/nodejs-1/512/nodejs-512.png"/>
+                  <CircularProgressbarWithChildren style={{width: 100}} value={60}>
+                    <img style={{ width: 100, marginTop: -5 }} src="https://cdn2.iconfinder.com/data/icons/nodejs-1/512/nodejs-512.png"/>
                   </CircularProgressbarWithChildren>
                 </span>
                 <h3>Node JS</h3>
               </li>
               <li>
                 <span className="icon major style5">
-                  <CircularProgressbarWithChildren style={{width: 100}} value={70}>
+                  <CircularProgressbarWithChildren style={{width: 100}} value={65}>
                     <img style={{ width: 70, marginTop: -5 }} src="https://cdn2.iconfinder.com/data/icons/web-application-3/100/app_application_web_software_settings_notifications_-05-512.png"/>
                   </CircularProgressbarWithChildren>
                 </span>
@@ -220,7 +220,7 @@ class Index extends React.Component {
               </li>
               <li>
                 <span className="icon major style5">
-                  <CircularProgressbarWithChildren style={{width: 100}} value={50}>
+                  <CircularProgressbarWithChildren style={{width: 100}} value={40}>
                     <img style={{ width: 80, marginTop: -5 }} src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/GraphQL_Logo.svg/1200px-GraphQL_Logo.svg.png"/>
                   </CircularProgressbarWithChildren>
                 </span>
@@ -228,11 +228,19 @@ class Index extends React.Component {
               </li>
               <li>
                 <span className="icon major style5">
-                  <CircularProgressbarWithChildren style={{width: 100}} value={76}>
+                  <CircularProgressbarWithChildren style={{width: 100}} value={65}>
                     <img style={{ width: 80, marginTop: -5 }} src="https://image.flaticon.com/icons/png/512/274/274439.png"/>
                   </CircularProgressbarWithChildren>
                 </span>
                 <h3>MySQL</h3>
+              </li>
+              <li>
+                <span className="icon major style5">
+                  <CircularProgressbarWithChildren style={{width: 100}} value={10}>
+                    <img style={{ width: 80, marginTop: -5 }} src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/1200px-Amazon_Web_Services_Logo.svg.png"/>
+                  </CircularProgressbarWithChildren>
+                </span>
+                <h3>AWS</h3>
               </li>
             </ul>
             <footer className="major">
