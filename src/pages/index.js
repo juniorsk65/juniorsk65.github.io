@@ -145,13 +145,13 @@ class Index extends React.Component {
           <section id="second" className="main special">
             <header className="major">
               <h2>Toolbox</h2>
-              <p>Front-End Development</p>
+              <p>Front-End Development (Learning)</p>
             </header>
             <ul className="features">
               <li>
                 {/* <CircularProgressbar value={percentage} text={`${percentage}%`} />; */}
                 <span className="icon major style5">
-                  <CircularProgressbarWithChildren style={{width: 100}} value={65}>
+                  <CircularProgressbarWithChildren style={{width: 100}} value={55}>
                     <img style={{ width: 70, marginTop: -5 }} src="https://facebook.github.io/react-native/img/header_logo.svg"/>
                   </CircularProgressbarWithChildren>
                 </span>
@@ -167,7 +167,7 @@ class Index extends React.Component {
               </li>
               <li>
                 <span className="icon major style5">
-                  <CircularProgressbarWithChildren style={{width: 100}} value={65}>
+                  <CircularProgressbarWithChildren style={{width: 100}} value={45}>
                     <img style={{ width: 70, marginTop: -5 }} src="https://facebook.github.io/react-native/img/header_logo.svg"/>
                   </CircularProgressbarWithChildren>
                 </span>
@@ -199,7 +199,7 @@ class Index extends React.Component {
               </li>
             </ul>
             <header className="major">
-              <p>Back-End Development</p>
+              <p>Back-End Development (Learning)</p>
             </header>
             <ul className="features">
               <li>
